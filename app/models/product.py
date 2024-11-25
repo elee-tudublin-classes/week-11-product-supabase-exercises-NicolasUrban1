@@ -21,3 +21,4 @@ class Product(BaseModel):
         if (v == "") :
             return("/static/images/product/placeholder.webp")
         return v
+        

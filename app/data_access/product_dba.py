@@ -35,9 +35,9 @@ def dataGetProducts():
     return products_data
 
 # get product by id
-def dataGetProduct(id: int):
+def dataGetProduct(name: str):
     for index, product in enumerate(products_data) :
-        if product['id'] == id :
+        if product['name'] == name:
             return product
 
     return False
